@@ -34,21 +34,6 @@ The project includes both a standalone Wear OS app screen and a dynamic Weather 
 * Safe exception handling to avoid crashes
 
 
-
-## Project Structure
-
-com.example.safety
- ├── presentation
- │     └── MainActivity.kt
- ├── tile
- │     └── MainTileService.kt
- ├── weather
- │     ├── WeatherApi.kt
- │     └── WeatherData.kt
- └── complication
-       └── (optional complication provider)
-
-
 ## Technologies Used
 
 * Kotlin
@@ -85,5 +70,3 @@ com.example.safety
 * Add auto-refresh intervals for the tile
 * Add city selection from the watch
 
-
-If you want, I can also generate a **short description**, **GitHub tags**, or **screenshots section** for your README.
