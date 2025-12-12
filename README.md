@@ -8,7 +8,7 @@ Developed the weather UI with the real time weather data on the smart watch usin
 A lightweight Wear OS application that shows real-time weather information using the OpenWeather API.
 The project includes both a standalone Wear OS app screen and a dynamic Weather Tile.
 
-## It works only the watchs uses wear os not for the RTOS based watches (boat,firebolt,etc...)
+## It works only the watchs uses wear os not for the RTOS based watches like (boat,firebolt,etc...)
 
 ## Features
 
