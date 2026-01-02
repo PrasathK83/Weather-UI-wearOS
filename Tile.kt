@@ -1,5 +1,3 @@
-package com.example.safety.tile
-
 import android.content.Context
 import androidx.wear.protolayout.ColorBuilders.argb
 import androidx.wear.protolayout.LayoutElementBuilders
@@ -17,7 +15,7 @@ import com.google.android.horologist.annotations.ExperimentalHorologistApi
 import com.google.android.horologist.tiles.SuspendingTileService
 
 private const val RESOURCES_VERSION = "1"
-private const val API_KEY = "1a27e19a4fc07ecd31cbb277a9697f42"
+private const val API_KEY = "YOUR_WEATHER_API_KEY"
 private const val CITY = "Chennai"
 
 @OptIn(ExperimentalHorologistApi::class)
@@ -84,3 +82,4 @@ private fun tileLayout(
                 .build()
         ).build()
 }
+
